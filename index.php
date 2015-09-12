@@ -64,7 +64,7 @@
         } 
         // return json
         else if($_GET["type"] == "json") {
-          header('Content-Type: text/json; charset=UTF-8');
+          header('Content-type: application/json; charset=UTF-8');
           $response = preg_replace("/(<\/?)(\w+):([^>]*>)/", "$1$2$3", $res);
           $xml = new SimpleXMLElement($response);
           $body = $xml->xpath('//return')[0];
@@ -83,6 +83,9 @@
       }
     }
     curl_close($soap_do);
+  } else {
+    header("location: https://github.com/wgenial/placa-sinesp");
+    exit;
   }
 
 ?>
