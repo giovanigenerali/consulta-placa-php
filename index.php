@@ -2,6 +2,7 @@
 
   if (isset($_GET["placa"]) && $_GET["placa"] !== "") {
 
+    $url_sinesp = "http://sinespcidadao.sinesp.gov.br/sinesp-cidadao/ConsultaPlacaNovo";
     $placa   = $_GET["placa"];
     $token = hash_hmac('sha1', $placa, 'shienshenlhq', false);
     $random_ip = (string)mt_rand(1,255).".".mt_rand(0,255).".".mt_rand(0,255).".".mt_rand(0,255);
@@ -14,7 +15,7 @@
       . '<dispositivo>GT-S1312L</dispositivo>'
       . '<nomeSO>Android</nomeSO>'
       . '<versaoAplicativo>1.1.1</versaoAplicativo>'
-      . '<versaoSO>4.1.4</versaoSO>'
+      . '<versaoSO>5.1.1</versaoSO>'
       . '<aplicativo>aplicativo</aplicativo>'
       . '<ip>'. $random_ip .'</ip>'
       . '<token>'. $token .'</token>'
@@ -35,11 +36,11 @@
       "Pragma: no-cache",
       "x-wap-profile: http://wap.samsungmobile.com/uaprof/GT-S7562.xml",
       "Content-length: ". strlen($request),
-      "User-Agent: Mozilla/5.0 (Linux; U; Android 4.1.4; pt-br; GT-S1162L Build/IMM76I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30",
+      "User-Agent: Mozilla/5.0 (Linux; U; Android 5.1.1; pt-br; GT-S1162L Build/IMM76I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30",
     );
 
     $soap_do = curl_init();
-    curl_setopt($soap_do, CURLOPT_URL, "http://sinespcidadao.sinesp.gov.br/sinesp-cidadao/ConsultaPlacaNovo27032014" );
+    curl_setopt($soap_do, CURLOPT_URL, $url_sinesp);
     curl_setopt($soap_do, CURLOPT_CONNECTTIMEOUT, 10);
     curl_setopt($soap_do, CURLOPT_TIMEOUT, 10);
     curl_setopt($soap_do, CURLOPT_RETURNTRANSFER, true);
