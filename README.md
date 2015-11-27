@@ -1,4 +1,4 @@
-# O serviço está indisponível devido ao SINESP ter mudado a chamada da consulta. Assim que tivermos alguma novidade, vamos atualizar o código para que a consulta volte a normal!
+# O serviço está indisponível devido ao SINESP ter mudado a chamada da consulta. Assim que tivermos alguma novidade, vamos atualizar o código para que a consulta volte ao normal!
 
 
 # Consulta Placa de Veículo SINESP Cidadão
