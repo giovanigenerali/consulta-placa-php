@@ -1,3 +1,6 @@
+# O serviço está indisponível devido ao SINESP ter mudado a chamada da consulta. Assim que tivermos alguma novidade, vamos atualizar o código para que a consulta volte a normal!
+
+
 # Consulta Placa de Veículo SINESP Cidadão
 
 Exemplo básico para realizar consulta de placas de veículos na base de dados do SINESP Cidadão. O script pesquisa no serviço SOAP do SINESP e retorna os dados do veículo
