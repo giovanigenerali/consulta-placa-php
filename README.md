@@ -1,5 +1,10 @@
 # O serviço está indisponível devido ao SINESP ter mudado a chamada da consulta. Assim que tivermos alguma novidade, vamos atualizar o código para que a consulta volte ao normal!
 
+## Update (28/01/16)
+Infelizmente não temos previsão de retorno do sistema que possibilida a consulta diretamente no SINESP.
+Caso alguém tenha uma solução ou recomendação para consultas desse tipo, nos avisem ou compartilhem aqui.
+Obrigado
+
 ## Update (02/12/15)
 Sem novidades até o momento para a consulta do SINESP, existe um outro serviço parecido que retorna apenas algumas informações https://www.carcheck.com.br/exibirdadosveiculos?placa=AFT0017
 Lembro que por ser uma serviço teoricamente pago, eles devem monitorar os acessos e restringirem com o uso, portanto não tem garantia.
