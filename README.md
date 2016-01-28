@@ -13,7 +13,7 @@ Exemplo básico para realizar consulta de placas de veículos na base de dados d
 
 Basta você passar via GET a placa do veículo "placa" e opcionalmente o tipo de retorno (xml, json ou html - padrão) via "type".
 
-* JSON: http://placa.hol.es/?placa=AFT0017&type=json
+* JSON
 
 ```json
 {
@@ -34,7 +34,7 @@ Basta você passar via GET a placa do veículo "placa" e opcionalmente o tipo de
 }
 ```
 
-* XML: http://placa.hol.es/?placa=FTR2828&type=xml
+* XML
 
 ```xml
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
@@ -61,7 +61,7 @@ Basta você passar via GET a placa do veículo "placa" e opcionalmente o tipo de
 </soap:Envelope>
 ```
 
-* HTML: http://placa.hol.es/?placa=FFF0012
+* HTML
 ```html
 codigoRetorno = 0
 mensagemRetorno = Sem erros.
