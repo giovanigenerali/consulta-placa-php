@@ -1,4 +1,5 @@
-# O serviço está indisponível devido ao SINESP ter mudado a chamada da consulta. Assim que tivermos alguma novidade, vamos atualizar o código para que a consulta volte ao normal!
+## Update (10/02/16)
+Encontramos um código escrito em python que está funcionando https://github.com/victor-torres/sinesp-client
 
 ## Update (28/01/16)
 Infelizmente não temos previsão de retorno do sistema que possibilida a consulta diretamente no SINESP.
