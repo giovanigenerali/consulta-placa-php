@@ -1,3 +1,6 @@
+## Update (11/02/16)
+Contribuimos com melhorias no parse do xml no projeto https://github.com/victor-torres/sinesp-client
+
 ## Update (10/02/16)
 Encontramos um código escrito em python que está funcionando https://github.com/victor-torres/sinesp-client
 
