@@ -1,3 +1,10 @@
+## Update (22/02/16)
+Segue 2 scripts simples que criamos para fazer uma chamado via PHP para o script em Python que o Victor Torres criou.
+
+https://gist.github.com/giovanigenerali/17666843767f0796042b
+
+Lembre-se que é necessário ter o módulo instalado no seu servidor, sigam as instruções do respositório informado Update (11/02/16) abaixo.
+
 ## Update (11/02/16)
 Contribuimos com melhorias no parse do xml no projeto https://github.com/victor-torres/sinesp-client
 
