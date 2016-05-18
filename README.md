@@ -1,5 +1,5 @@
 ## Update (22/02/16)
-Segue 2 scripts simples que criamos para fazer uma chamado via PHP para o script em Python que o Victor Torres criou.
+Segue 2 scripts simples que criamos para fazer uma chamada via PHP para o script em Python que o Victor Torres criou.
 
 https://gist.github.com/giovanigenerali/17666843767f0796042b
 
