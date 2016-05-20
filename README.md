@@ -1,3 +1,63 @@
+## Update (20/05/16)
+Segue abaixo alguns exemplos que implementamos no nosso servidor.
+
+### Placa existente:
+
+[http://consultaplaca-wgenial.rhcloud.com/?placa=AFT0017](http://consultaplaca-wgenial.rhcloud.com/?placa=AFT0017)
+
+```json
+{
+  chassis: "************21376",
+  model: "I/HYUNDAI I30 2.0",
+  color: "PRETA",
+  brand: "I/HYUNDAI I30 2.0",
+  date: "20/05/2016 às 15:34:51",
+  return_message: "Sem erros.",
+  city: "SAO PAULO",
+  return_code: "0",
+  state: "SP",
+  model_year: "2011",
+  plate: "FAZ0081",
+  year: "2010",
+  status_code: "0",
+  status_message: "Sem restrição"
+}
+```
+
+
+### Placa não encontrada:
+
+[http://consultaplaca-wgenial.rhcloud.com/?placa=AAA0000](http://consultaplaca-wgenial.rhcloud.com/?placa=AAA0000)
+
+```json
+{
+  chassis: null,
+  model: null,
+  color: null,
+  brand: null,
+  date: null,
+  return_message: "Veículo não encontrado.",
+  city: null,
+  return_code: "3",
+  state: null,
+  model_year: null,
+  plate: null,
+  year: null,
+  status_code: null,
+  status_message: null
+}
+```
+
+### Outras placas de exemplo
+
+[http://consultaplaca-wgenial.rhcloud.com/?placa=EXJ1969](http://consultaplaca-wgenial.rhcloud.com/?placa=EXJ1969)
+
+[http://consultaplaca-wgenial.rhcloud.com/?placa=AFT0017](http://consultaplaca-wgenial.rhcloud.com/?placa=AFT0017)
+
+Obs.: Para saber como fazer essa implementação, consulte esse [Wiki] (https://github.com/victor-torres/sinesp-client/wiki/Como-executar-o-c%C3%B3digo-Python-no-PHP).
+
+***
+
 ## Update (22/02/16)
 Segue 2 scripts simples que criamos para fazer uma chamada via PHP para o script em Python que o Victor Torres criou.
 
@@ -5,23 +65,35 @@ https://gist.github.com/giovanigenerali/17666843767f0796042b
 
 Lembre-se que é necessário ter o módulo instalado no seu servidor, sigam as instruções do respositório informado Update (11/02/16) abaixo.
 
+***
+
 ## Update (11/02/16)
 Contribuimos com melhorias no parse do xml no projeto https://github.com/victor-torres/sinesp-client
 
+***
+
+
 ## Update (10/02/16)
 Encontramos um código escrito em python que está funcionando https://github.com/victor-torres/sinesp-client
+
+***
+
 
 ## Update (28/01/16)
 Infelizmente não temos previsão de retorno do sistema que possibilida a consulta diretamente no SINESP.
 Caso alguém tenha uma solução ou recomendação para consultas desse tipo, nos avisem ou compartilhem aqui.
 Obrigado
 
+***
+
+
 ## Update (02/12/15)
 Sem novidades até o momento para a consulta do SINESP, existe um outro serviço parecido que retorna apenas algumas informações https://www.carcheck.com.br/exibirdadosveiculos?placa=AFT0017
 Lembro que por ser uma serviço teoricamente pago, eles devem monitorar os acessos e restringirem com o uso, portanto não tem garantia.
 
+***
 
-# Consulta Placa de Veículo SINESP Cidadão
+# Consulta Placa de Veículo SINESP Cidadão (não funciona)
 
 Exemplo básico para realizar consulta de placas de veículos na base de dados do SINESP Cidadão. O script pesquisa no serviço SOAP do SINESP e retorna os dados do veículo
 
