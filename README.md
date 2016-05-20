@@ -1,7 +1,7 @@
 ## Update (20/05/16)
 Segue abaixo alguns exemplos que implementamos no nosso servidor.
 
-### Placa existente:
+### Placa existente (sem restrição):
 
 [http://consultaplaca-wgenial.rhcloud.com/?placa=AFT0017](http://consultaplaca-wgenial.rhcloud.com/?placa=AFT0017)
 
@@ -21,6 +21,28 @@ Segue abaixo alguns exemplos que implementamos no nosso servidor.
   year: "2010",
   status_code: "0",
   status_message: "Sem restrição"
+}
+```
+
+### Placa existente (Roubo/Furto):
+[http://consultaplaca-wgenial.rhcloud.com/?placa=FFF0012](http://consultaplaca-wgenial.rhcloud.com/?placa=FFF0012)
+
+```javascript
+{
+  return_code: "0",
+  model: "I/MMC L200 4X4",
+  model_year: "1993",
+  state: "SP",
+  status_message: "Roubo/Furto",
+  year: "1992",
+  color: "PRETA",
+  status_code: "1",
+  plate: "FFF0012",
+  date: "20/05/2016 às 15:54:21",
+  chassis: "************01561",
+  brand: "I/MMC L200 4X4",
+  return_message: "Sem erros.",
+  city: "SAO PAULO"
 }
 ```
 
@@ -52,7 +74,9 @@ Segue abaixo alguns exemplos que implementamos no nosso servidor.
 
 [http://consultaplaca-wgenial.rhcloud.com/?placa=EXJ1969](http://consultaplaca-wgenial.rhcloud.com/?placa=EXJ1969)
 
-[http://consultaplaca-wgenial.rhcloud.com/?placa=AFT0017](http://consultaplaca-wgenial.rhcloud.com/?placa=AFT0017)
+[http://consultaplaca-wgenial.rhcloud.com/?placa=FVI3690](http://consultaplaca-wgenial.rhcloud.com/?placa=FVI3690)
+
+[http://consultaplaca-wgenial.rhcloud.com/?placa=FTR2828](http://consultaplaca-wgenial.rhcloud.com/?placa=FTR2828)
 
 Obs.: Para saber como fazer essa implementação, consulte esse [Wiki] (https://github.com/victor-torres/sinesp-client/wiki/Como-executar-o-c%C3%B3digo-Python-no-PHP).
 
