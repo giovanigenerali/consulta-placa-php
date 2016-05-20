@@ -1,4 +1,12 @@
-## Update (20/05/16)
+## Update 2 (20/05/16)
+O SINESP, faz questão de bloquear as consultas no servidor. Infelizmente não dá para consultar, as vezes derrubam a conexão ou forçam a chamada com valicação captcha.
+
+Um serviço que deveria ser público para todos utilizarem, mas eles dificutam 100%. Só no Brasil mesmo!
+
+***
+
+
+## Update 1 (20/05/16)
 Segue abaixo alguns exemplos que implementamos no nosso servidor.
 
 ### Placa existente (sem restrição):
