@@ -5,7 +5,7 @@ Segue abaixo alguns exemplos que implementamos no nosso servidor.
 
 [http://consultaplaca-wgenial.rhcloud.com/?placa=AFT0017](http://consultaplaca-wgenial.rhcloud.com/?placa=AFT0017)
 
-```json
+```javascript
 {
   chassis: "************21376",
   model: "I/HYUNDAI I30 2.0",
@@ -29,7 +29,7 @@ Segue abaixo alguns exemplos que implementamos no nosso servidor.
 
 [http://consultaplaca-wgenial.rhcloud.com/?placa=AAA0000](http://consultaplaca-wgenial.rhcloud.com/?placa=AAA0000)
 
-```json
+```javascript
 {
   chassis: null,
   model: null,
