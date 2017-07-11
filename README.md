@@ -1,3 +1,15 @@
+## Update 3 (10/06/17)
+Existem alguns sites que disponivilizam consultas de teste gratuitas:
+
+https://www.checkmeucarro.com.br
+- https://www.checkmeucarro.com.br/minha-conta/pesquisaGratis/pesquisar/?placa=FTR2828
+
+https://www.historicar.com.br
+- https://www.historicar.com.br/admin/iniciar_fluxo/FTR2828
+
+***
+
+
 ## Update 2 (20/05/16)
 O SINESP, faz questão de bloquear as consultas no servidor. Infelizmente não dá para consultar, as vezes derrubam a conexão ou forçam a chamada com valicação captcha.
 
@@ -25,7 +37,7 @@ Segue abaixo alguns exemplos que implementamos no nosso servidor.
   return_code: "0",
   state: "SP",
   model_year: "2011",
-  plate: "FAZ0081",
+  plate: "AFT0017",
   year: "2010",
   status_code: "0",
   status_message: "Sem restrição"
